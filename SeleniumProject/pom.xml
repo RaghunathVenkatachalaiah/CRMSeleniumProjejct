@@ -9,7 +9,7 @@
 	
 	<profiles>
 		<profile>
-			<id>smoke</id>
+			<id>ST</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -28,7 +28,7 @@
 
 
 		<profile>
-			<id>fg</id>
+			<id>RT</id>
 			<build>
 				<plugins>
 					<plugin>
