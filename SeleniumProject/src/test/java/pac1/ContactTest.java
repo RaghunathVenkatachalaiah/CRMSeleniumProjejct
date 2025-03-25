@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class ContactTest {
 
-@Test
+@Test //(groups = "smokeTest")
 public void createContactTest() {
 	String URL = System.getProperty("url");
 	String BROWSER = System.getProperty("browser");
@@ -18,12 +18,15 @@ public void createContactTest() {
 	System.out.println("execute createcotactTest");
 	}
 
-@Test
+@Test //(groups = "regressionTest")
 public void modifyContactTest() {
 	System.out.println("execute modifyContactTest");
 	}
 
-
+@Test //(groups = "regressionTest")
+public void deleteContactTest() {
+	System.out.println("execute deleteContactTest");
+	}
 
 
 }
